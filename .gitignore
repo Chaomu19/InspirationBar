@@ -6,7 +6,6 @@ Icon
 ._*
 
 # Build artifacts
-InspirationBar.app
 AppIcon.iconset
 code/.build/
 code/.swiftpm/

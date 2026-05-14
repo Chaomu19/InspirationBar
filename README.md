@@ -34,9 +34,15 @@
 ## 安装和运行
 
 ### 直接使用（无需开发环境）
-下载 `InspirationBar.app`，双击运行即可。首次打开可能需要右键 → 打开以绕过 Gatekeeper。
+
+**无需编译、无需 Xcode** — 下载仓库后，双击根目录下的 `InspirationBar.app` 即可直接运行。
+
+> 首次打开时，macOS 可能提示"无法验证开发者"。请右键（或 Control + 点击）`InspirationBar.app` → 选择「打开」→ 再点「打开」即可。只需操作一次，以后正常双击打开。
 
 ### 从源码构建
+
+如果你希望自行编译或修改代码：
+
 ```bash
 cd code
 chmod +x setup.sh && ./setup.sh    # 安装依赖并编译
