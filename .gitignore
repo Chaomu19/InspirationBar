@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Build artifacts
+InspirationBar.app
+AppIcon.iconset
+code/.build/
+code/.swiftpm/
+code/dist/
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj
+*.xcuserstate
+
+# SwiftPM
+Packages
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Claude Code local settings
+code/.claude/
+
+# Secrets
+.netrc
+.env
